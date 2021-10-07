@@ -8,11 +8,11 @@
     $mail->Port= 587;
     $mail->SMTPAuth=true;
     $mail->SMTPSecure='tls';
-    $mail->Username='no_responder@tvnovedadescolombia.com';
-    $mail->Password='Nov3d@des2018*';
+    $mail->Username='Correo_origen@...com';
+    $mail->Password='contraseña_correo';
 
-    $mail->setFrom('no_responder@tvnovedadescolombia.com','No Responder');
-    $mail->addAddress('grimaldi2706@gmail.com');
+    $mail->setFrom('Correo_origen@...com','Alias Correo_origen@...com');
+    $mail->addAddress('correo_destio@gmail.com');
 
 
     $mail->isHTML(true);
